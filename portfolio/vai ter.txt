@@ -3,6 +3,7 @@
 * Laboratorio
 * Educação(?)
 * contato
+teste de alteraçao para depois do bagulho
 ---------------------------------
 no my skill poderia fazer com progress bar do bootrap 4 ou com html e css
 HTML, CSS, JAVASCRIPT, BOOSTRAP, VUE JS, PYTHON
