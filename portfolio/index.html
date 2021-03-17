@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@538&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/main.css">
+</head>
+
+<body>
+    <!-- barra de navegaçao -->
+    <nav class="navbar navbar-expand-lg fixed-top cor-nav-bar fonte-geral">
+        <!-- <a class="navbar-brand" href="#">Lucas Lima</a> -->
+        <img class="navbar-brand logo" src="./img/Logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link texto-preto" href="#teste">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link texto-preto" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link texto-preto" href="#">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link texto-preto" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- seçao introdutoria -->
+    <section class="jumbotron altura cor-intro">
+        <div class="container">
+            <img src="./img/img0.jpg" alt="" id="foto" class="rounded float-right foto-espaco">
+            <!-- imagem tem que ser quadrada -->
+            <div class="espaco-nome">
+                <h3 class="jumbotron-heading">Lucas Lima</h3>
+            </div>
+            <div>
+                <p class="lead text-muted">Amante da Tecnologia, Programador e Aspirante a Cientista de Dados</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sobre mim -->
+    <section class="jumbotron text-center cor-sobremim">
+        <div class="conteiner">
+            <img src="./img/user.png" class="foto-perfil" alt="">
+            <h2 class="jumbotron-heading"> <a name="teste"> Sobre Mim</h2></a> 
+            <h3 class="text-center">
+                <p class="lead nome-espaco-sobre">Mais Sobre Mim...</p>
+            </h3>
+            <p class="lead text-justify">
+                Meu Nome é Lucas Alves de Lima, atualmente estou graduando Análises e Desenvolvimento
+                de Sistema(ADS) no IFPI Campus Picos Piauí, onde acabei descobrindo uma nova paixão
+                o desenvolvimento de software. Tenho algum domínio em tecnologias front-end voltada para
+                desenvolvimento web e futuramente pretendo seguir uma possível carreira de Cientista
+                de Dados.
+            </p>
+        </div>
+    </section>
+
+    <!-- Minhas habilidade/my skills -->
+    <div class="conteiner cor-myskills">
+        <h2 class="text-center">My Skills</h2>
+
+        <div class="skills-bar">
+            <div class="bar espaco">
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html"> <span></span> </div>
+            </div>
+
+            <div class="bar espaco">
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css"> <span></span> </div>
+            </div>
+
+            <div class="bar espaco">
+                <div class="info">
+                    <span>JAVASCRIPT</span>
+                </div>
+                <div class="progress-line javascript"> <span></span> </div>
+            </div>
+
+            <div class="bar espaco">
+                <div class="info">
+                    <span>BOOTSTRAP 4</span>
+                </div>
+                <div class="progress-line bootstrap"> <span></span> </div>
+            </div>
+
+            <div class="bar espaco">
+                <div class="info">
+                    <span>VUE JS</span>
+                </div>
+                <div class="progress-line vue"> <span></span> </div>
+            </div>
+
+            <div class="bar espaco">
+                <div class="info">
+                    <span>PYTHON</span>
+                </div>
+                <div class="progress-line python"> <span></span> </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- projetos -->
+    <div class="album py-5 cor-projeto">
+        <h2 class="text-center">Projetos</h2>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <!-- coloca o link da imagem widhscreen no src -->
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20508%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177eaf6f05e%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177eaf6f05e%22%3E%3Crect%20width%3D%22508%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22169.75%22%20y%3D%22123.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Meu primeiro projeto, Que foi um portfolio para a materia de
+                                programaçao web I.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver Projeto</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20508%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177eaf6f05f%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177eaf6f05f%22%3E%3Crect%20width%3D%22508%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22169.75%22%20y%3D%22123.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                            data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">O segundo projeto da faculdade em equipe, desenvolver um site para a
+                                empresa Radical Dreamers um empresa de jogos.</p>
+                            <ul>
+                                <li>Boostrap-Vue</li>
+                                <li>Javascript</li>
+                                <li>Node Js</li>
+                                <li>Firebase</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver Projeto</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contato -->
+    <section class="jumbotron text-center cor-contato">
+        <div class="conteiner">
+            <h2 class="jumbotron-heading">Contato</h2>
+            <p class="lead">
+                fique à vontade para entrar em contato.
+            </p>
+            <a href="#"> <i class="icones texto-preto fas fa-envelope-square tamanho fa-2x"> </i></a>
+            <a href="#"> <i class="icones texto-preto fab fa-github fa-2x"></i> </a>
+            <a href="#"> <i class="icones texto-preto fab fa-linkedin fa-2x"></i> </a>
+            <a href="#"><i class="icones texto-preto fab fa-twitter-square fa-2x"></i></a>
+        </div>
+    </section>
+
+
+    <!-- footer/rodape -->
+    <footer class="text-center p-2">
+        <p>2021 - Lucas Lima</p>
+    </footer>
+</body>
+
+</html>

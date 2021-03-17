@@ -1,0 +1,111 @@
+* sobre
+* skills
+* Laboratorio
+* Educação(?)
+* contato
+---------------------------------
+no my skill poderia fazer com progress bar do bootrap 4 ou com html e css
+HTML, CSS, JAVASCRIPT, BOOSTRAP, VUE JS, PYTHON
+---------------------------------------------------
+contato
+-numero whats app ??? talvez eu coloque
+-email
+-github
+-linkind
+-------------------------------------
+descriçao1:
+    Amante da tecnologia, Programador e Aspirante a Cientista de dados
+
+descriçao 2:
+    Mais sobre mim...
+        Meu Nome é Lucas Alves de Lima, atualmente estou graduando Analises e desenvolvimento
+        de sistema(ADS) no IFPI Campus Picos Piauí, onde acabei descobrindo uma nova paixão 
+        o desenvolvimento de software. Tenho algum dominio em tecnologias front-end voltada para 
+        desenvolvimento web e futuramente pretendo seguir uma possivel carrera de cientista
+        de dados.
+------------------------------
+fontes: 
+    fonte geral Comfortaa
+--------------------------------
+ esse e o codigo do my skill antigooo
+
+<div class="progressive-bar">
+        <h2 class="text-center">My Skills</h2>
+        <h5>Css 3</h5>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="80"></div>
+        </div>
+
+        <h5>Html</h5>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="80"></div>
+        </div>
+
+        <h5>bootstrap 4</h5>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="80"></div>
+        </div>
+
+        <h5>Vue Js</h5>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="80"></div>
+        </div>
+    </div>
+
+
+---------------------------------------
+canvas.com.br
+
+11 - quante vs frio 1 
+{
+#18121E - Navy blue
+#233237 - gunmetal
+#984843 - resty red
+#EAC67A - warn yellow 
+}
+
+14 - maatrizes e tons 1 
+{
+#94618E - GRAPE
+#49274A - EGGPLANT
+#F4DECB - SAND
+#F8EEE7 - SHELL
+}
+
+20 - degrade e cores desbotadas
+{
+#77C9D4 - FEATHER
+#57BC90 - MAARINE
+#015249 - FOREST
+#ASASAF - SLEEK GREY
+}
+
+29 - puro e leve
+
+{
+#99D3DF - ICE
+#88BBD6 - FRESH WATER
+#CDCDCD - PLASTER
+#89E9E9 - LENEN
+}
+
+36 - charme vintage
+{
+#CDA34F - GOLD
+#E9E7DA - DAISY
+#636B46 - STEM
+#373F24 - GREENERY
+}
+
+38 - matrizes tempestuosas 1 
+{
+#494E6B - STORMY
+#98878F - CLOUD
+#985E6D - SUNSET
+#192231 - EVENING
+
+}
