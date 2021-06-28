@@ -7,6 +7,7 @@ teste de alteraçao para depois do bagulho
 ---------------------------------
 no my skill poderia fazer com progress bar do bootrap 4 ou com html e css
 HTML, CSS, JAVASCRIPT, BOOSTRAP, VUE JS, PYTHON
+*** fazer somente com imagens depois *
 ---------------------------------------------------
 contato
 -numero whats app ??? talvez eu coloque
@@ -56,8 +57,6 @@ fontes:
                 aria-valuemax="80"></div>
         </div>
     </div>
-
-
 ---------------------------------------
 canvas.com.br
 
